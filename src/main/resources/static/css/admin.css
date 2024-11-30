@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table th, .table td {
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+input{
+    border: none;
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+    min-width: 200px; /* Full Name */
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+    min-width: 150px; /* Phone Number */
+}
+
+.table th:nth-child(4), .table td:nth-child(4) {
+    min-width: 250px; /* Email */
+}
+
+.table th:nth-child(7), .table td:nth-child(7) {
+    min-width: 200px; /* Location */
+}
+
+
+button {
+    margin-right: 10px;
+}
